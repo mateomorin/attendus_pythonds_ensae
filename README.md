@@ -23,7 +23,7 @@ attendus_pythonds_ensae
 │   └── iris_sepales.png
 ├── LICENSE
 ├── notebooks
-│   ├── exploration_donnees_iris.ipynb            # Ajoutez des commentaires comme ceci pour décrire
+│   ├── exploration_donnees_iris.ipynb          # Ajoutez des commentaires comme ceci pour décrire
 │   ├── visualisation_donnees_croisees.ipynb
 │   └── visualisation_donnees_iris.ipynb
 ├── pyproject.toml
@@ -32,6 +32,24 @@ attendus_pythonds_ensae
 │   └── generation_table_jointe.py
 ├── synthese.ipynb
 └── uv.lock
+```
+
+On peut structurer plus proprement pour présenter (souvent on met d'abord les dossiers puis les fichiers) :
+
+```{bash}
+├── images                                        # Sources pas trop lourdes, utiles pour la présentation
+│   └── iris_sepales.png
+├── notebooks                                     # Notebooks, plutôt axés exploration et visualisation
+│   ├── exploration_donnees_iris.ipynb
+│   ├── visualisation_donnees_croisees.ipynb
+│   └── visualisation_donnees_iris.ipynb
+├── src                                           # Scripts, plutôt axés traitement de donnée lourde
+│   └── generation_table_jointe.py
+├── synthese.ipynb                                # Le rapport
+├── pyproject.toml
+├── README.md                                     # La documentation
+└── uv.lock
+# On a retiré la LICENSE dans le récapitulatif car moins utile à présenter
 ```
 
 ## Instructions pour reproduire les résultats du projet
